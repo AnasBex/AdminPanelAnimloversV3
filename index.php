@@ -1,1 +1,1 @@
-<?php include_once("../main/connect.php"); ?>
+<?php include_once("main/connect.php"); ?>
