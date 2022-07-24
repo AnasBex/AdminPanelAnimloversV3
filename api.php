@@ -11,7 +11,7 @@ function grabbing($url){
     curl_close($data);
     return $output;
 }
-$ambilhtml = grabbing('https://www.riie.net/');
+$ambilhtml = grabbing('https://riie.one/');
 $eJudul = explode('<div class="thumb">',$ambilhtml);
 
 
